@@ -8,8 +8,7 @@ public class Player : MonoBehaviour
 
     PlayerInput playerInput;
     Rigidbody2D rb;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private bool IsJump_ = false;
     void Start()
     {
         playerInput = GetComponent<PlayerInput>();
@@ -25,7 +24,22 @@ public class Player : MonoBehaviour
 
         if (playerInput.actions["Jump"].WasPressedThisFrame())
         {
-            rb.linearVelocityY = jumpSpeed;
+            if (!IsJump_)
+            {
+                rb.linearVelocityY = jumpSpeed;
+                IsJump_ = true;
+            }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Floor")
+        {
+            if (IsJump_)
+            {
+                IsJump_ = false;
+            }
         }
     }
 }
