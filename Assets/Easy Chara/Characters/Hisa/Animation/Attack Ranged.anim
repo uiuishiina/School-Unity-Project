@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Attack Ranged
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -2624,7 +2624,8 @@ AnimationClip:
       m_RotationOrder: 4
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm/RHand_Default_Gra_Open/Rig1_RHand_Open
   m_FloatCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2688,7 +2689,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes/Eye_Closed
     classID: 1
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2752,7 +2755,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes/Eye_Dead
     classID: 1
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2816,7 +2821,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes/Eye_Dizzy
     classID: 1
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2844,7 +2851,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes/Eye_Hurt
     classID: 1
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2908,6 +2917,7 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes/Eye_Open
     classID: 1
     script: {fileID: 0}
+    flags: 16
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -2923,6 +2933,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2690212608
       attribute: 1
@@ -2930,6 +2942,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3137836889
       attribute: 1
@@ -2937,6 +2951,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2998153163
       attribute: 1
@@ -2944,6 +2960,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3660369164
       attribute: 4
@@ -2951,6 +2969,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2850741138
       attribute: 4
@@ -2958,6 +2978,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2198716032
       attribute: 4
@@ -2965,6 +2987,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2690212608
       attribute: 4
@@ -2972,6 +2996,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3368562922
       attribute: 4
@@ -2979,6 +3005,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3678157455
       attribute: 4
@@ -2986,6 +3014,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 734015420
       attribute: 4
@@ -2993,6 +3023,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3137836889
       attribute: 4
@@ -3000,6 +3032,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1055848521
       attribute: 4
@@ -3007,6 +3041,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2998153163
       attribute: 4
@@ -3014,6 +3050,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1965782563
       attribute: 4
@@ -3021,6 +3059,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 671871558
       attribute: 4
@@ -3028,6 +3068,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3660369164
       attribute: 3
@@ -3035,6 +3077,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 102535866
       attribute: 2086281974
@@ -3042,6 +3086,8 @@ AnimationClip:
       typeID: 1
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3344742171
       attribute: 2086281974
@@ -3049,6 +3095,8 @@ AnimationClip:
       typeID: 1
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4288511928
       attribute: 2086281974
@@ -3056,6 +3104,8 @@ AnimationClip:
       typeID: 1
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3992255013
       attribute: 2086281974
@@ -3063,6 +3113,8 @@ AnimationClip:
       typeID: 1
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2382986651
       attribute: 2086281974
@@ -3070,6 +3122,8 @@ AnimationClip:
       typeID: 1
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2850741138
       attribute: 1
@@ -3077,6 +3131,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2198716032
       attribute: 1
@@ -3084,6 +3140,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3368562922
       attribute: 1
@@ -3091,6 +3149,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3678157455
       attribute: 1
@@ -3098,6 +3158,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 734015420
       attribute: 1
@@ -3105,6 +3167,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1768307240
       attribute: 1
@@ -3112,6 +3176,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1055848521
       attribute: 1
@@ -3119,6 +3185,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 434374959
       attribute: 1
@@ -3126,6 +3194,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1965782563
       attribute: 1
@@ -3133,6 +3203,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 671871558
       attribute: 1
@@ -3140,6 +3212,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1768307240
       attribute: 4
@@ -3147,6 +3221,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 434374959
       attribute: 4
@@ -3154,6 +3230,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2850741138
       attribute: 3
@@ -3161,6 +3239,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2198716032
       attribute: 3
@@ -3168,6 +3248,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2690212608
       attribute: 3
@@ -3175,6 +3257,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3368562922
       attribute: 3
@@ -3182,6 +3266,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3678157455
       attribute: 3
@@ -3189,6 +3275,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 734015420
       attribute: 3
@@ -3196,6 +3284,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1768307240
       attribute: 3
@@ -3203,6 +3293,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3137836889
       attribute: 3
@@ -3210,6 +3302,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1055848521
       attribute: 3
@@ -3217,6 +3311,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 434374959
       attribute: 3
@@ -3224,6 +3320,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2998153163
       attribute: 3
@@ -3231,6 +3329,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1965782563
       attribute: 3
@@ -3238,6 +3338,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 671871558
       attribute: 3
@@ -3245,6 +3347,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
@@ -3267,7 +3371,8 @@ AnimationClip:
     m_HeightFromFeet: 0
     m_Mirror: 0
   m_EditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3340,7 +3445,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3413,7 +3520,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3486,7 +3595,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3550,7 +3661,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3614,7 +3727,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3678,7 +3793,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3742,7 +3859,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3806,7 +3925,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3870,7 +3991,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3934,7 +4057,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3998,7 +4123,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4062,7 +4189,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4126,7 +4255,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4190,7 +4321,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4254,7 +4387,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4318,7 +4453,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4382,7 +4519,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4446,7 +4585,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4510,7 +4651,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg/Rig2_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4574,7 +4717,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg/Rig2_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4638,7 +4783,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg/Rig2_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4702,7 +4849,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg/Rig2_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4766,7 +4915,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg/Rig2_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4830,7 +4981,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg/Rig2_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4894,7 +5047,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg/Rig2_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4958,7 +5113,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg/Rig2_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5022,7 +5179,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg/Rig2_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5086,7 +5245,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5150,7 +5311,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5214,7 +5377,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5278,7 +5443,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5342,7 +5509,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5406,7 +5575,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5470,7 +5641,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5534,7 +5707,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5598,7 +5773,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5662,7 +5839,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg/Rig2_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5726,7 +5905,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg/Rig2_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5790,7 +5971,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg/Rig2_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5854,7 +6037,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg/Rig2_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5918,7 +6103,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg/Rig2_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5982,7 +6169,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg/Rig2_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6046,7 +6235,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg/Rig2_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6110,7 +6301,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg/Rig2_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6174,7 +6367,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg/Rig2_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6238,7 +6433,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6302,7 +6499,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6366,7 +6565,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6430,7 +6631,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6494,7 +6697,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6558,7 +6763,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6622,7 +6829,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6686,7 +6895,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6750,7 +6961,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6814,7 +7027,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6878,7 +7093,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6942,7 +7159,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7006,7 +7225,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7070,7 +7291,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7134,7 +7357,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7198,7 +7423,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7262,7 +7489,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7326,7 +7555,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7390,7 +7621,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7454,7 +7687,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7518,7 +7753,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7582,7 +7819,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7646,7 +7885,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7710,7 +7951,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7774,7 +8017,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7838,7 +8083,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7902,7 +8149,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7966,7 +8215,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes/Eye_Closed
     classID: 1
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8030,7 +8281,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes/Eye_Dead
     classID: 1
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8094,7 +8347,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes/Eye_Dizzy
     classID: 1
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8122,7 +8377,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes/Eye_Hurt
     classID: 1
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8186,7 +8443,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes/Eye_Open
     classID: 1
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8250,7 +8509,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8314,7 +8575,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8378,7 +8641,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8442,7 +8707,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8506,7 +8773,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8570,7 +8839,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8634,7 +8905,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8698,7 +8971,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8762,7 +9037,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8826,7 +9103,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8890,7 +9169,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8954,7 +9235,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9018,7 +9301,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9082,7 +9367,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9146,7 +9433,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9210,7 +9499,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9274,7 +9565,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9338,7 +9631,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9402,7 +9697,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm/LHand_Default_Gra_Open/Rig1_LHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9466,7 +9763,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm/LHand_Default_Gra_Open/Rig1_LHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9530,7 +9829,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm/LHand_Default_Gra_Open/Rig1_LHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9594,7 +9895,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm/LHand_Default_Gra_Open/Rig1_LHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9658,7 +9961,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm/LHand_Default_Gra_Open/Rig1_LHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9722,7 +10027,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm/LHand_Default_Gra_Open/Rig1_LHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9786,7 +10093,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm/LHand_Default_Gra_Open/Rig1_LHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9850,7 +10159,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm/LHand_Default_Gra_Open/Rig1_LHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9914,7 +10225,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm/LHand_Default_Gra_Open/Rig1_LHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9978,7 +10291,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10042,7 +10357,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10106,7 +10423,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10179,7 +10498,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10252,7 +10573,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10325,7 +10648,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10389,7 +10714,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10453,7 +10780,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10517,7 +10846,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10581,7 +10912,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10645,7 +10978,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10709,7 +11044,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10782,7 +11119,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10855,7 +11194,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10928,7 +11269,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10992,7 +11335,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11056,7 +11401,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11120,7 +11467,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11184,7 +11533,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm/RHand_Default_Gra_Open/Rig1_RHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11248,7 +11599,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm/RHand_Default_Gra_Open/Rig1_RHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11312,7 +11665,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm/RHand_Default_Gra_Open/Rig1_RHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11376,7 +11731,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm/RHand_Default_Gra_Open/Rig1_RHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11440,7 +11797,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm/RHand_Default_Gra_Open/Rig1_RHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11504,7 +11863,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm/RHand_Default_Gra_Open/Rig1_RHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11568,7 +11929,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm/RHand_Default_Gra_Open/Rig1_RHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11632,7 +11995,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm/RHand_Default_Gra_Open/Rig1_RHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11696,8 +12061,10 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm/RHand_Default_Gra_Open/Rig1_RHand_Open
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_EulerEditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11707,7 +12074,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11717,7 +12086,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11727,7 +12098,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11737,7 +12110,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11747,7 +12122,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11757,7 +12134,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11767,7 +12146,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg/Rig2_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11777,7 +12158,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg/Rig2_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11787,7 +12170,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/LLeg_Default_01_Gra/Rig1_LLeg/Rig2_LLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11797,7 +12182,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11807,7 +12194,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11817,7 +12206,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11827,7 +12218,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg/Rig2_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11837,7 +12230,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg/Rig2_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11847,7 +12242,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/RLeg_Default_01_Gra/Rig1_RLeg/Rig2_RLeg
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11857,7 +12254,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11867,7 +12266,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11877,7 +12278,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11887,7 +12290,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11897,7 +12302,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11907,7 +12314,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11917,7 +12326,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11927,7 +12338,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11937,7 +12350,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/Head_Default_01_Gra/Rig1_Head/Eyes
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11947,7 +12362,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11957,7 +12374,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11967,7 +12386,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11977,7 +12398,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11987,7 +12410,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -11997,7 +12422,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -12007,7 +12434,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm/LHand_Default_Gra_Open/Rig1_LHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -12017,7 +12446,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm/LHand_Default_Gra_Open/Rig1_LHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -12027,7 +12458,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/LArm_Default_01_Gra/Rig1_LArm/Rig2_LArm/LHand_Default_Gra_Open/Rig1_LHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -12037,7 +12470,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -12047,7 +12482,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -12057,7 +12494,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -12067,7 +12506,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -12077,7 +12518,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -12087,7 +12530,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -12097,7 +12542,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm/RHand_Default_Gra_Open/Rig1_RHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -12107,7 +12554,9 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm/RHand_Default_Gra_Open/Rig1_RHand_Open
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -12117,6 +12566,7 @@ AnimationClip:
     path: Body_Default_01_Gra/Rig1_Body/Rig2_Body/RArm_Default_01_Gra/Rig1_RArm/Rig2_RArm/RHand_Default_Gra_Open/Rig1_RHand_Open
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []

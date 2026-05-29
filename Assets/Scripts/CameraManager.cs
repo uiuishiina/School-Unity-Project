@@ -1,42 +1,47 @@
-using Unity.Mathematics;
 using UnityEngine;
 
 public class CameraManager : MonoBehaviour
 {
-    [SerializeField, Header("プレイヤー")] private GameObject Player_;
-    [SerializeField, Header("メインカメラ")] private Camera MainCamera_;
-    [SerializeField, Header("X軸のオフセット上限")] float2 offsetX_ = new float2();
-    [SerializeField, Header("Y軸のオフセット上限")] float2 offsetY_ = new float2();
-    void Start()
+    private Camera MainCamera;
+    [SerializeField, Header("移動オフセット")] private Vector2 CameraOffset = new Vector2(3,5);
+    [SerializeField, Header("原点オフセット")] private Vector3 originoffset = new Vector3(-2, 0, 0);
+    [SerializeField, Header("追従ターゲット")] private GameObject Target;
+
+    private void Start()
     {
+        MainCamera = GetComponent<Camera>();
+    }
+
+    private void LateUpdate()
+    {
+        if (Target == null) return;
+
+        Vector3 diff = Target.transform.position - transform.position;
+
+        Vector3 move = new Vector3(
+            ApplyDeadZone(diff.x, CameraOffset.x),
+            ApplyDeadZone(diff.y, CameraOffset.y),
+            0
+        );
+
+        // 必要な分だけ移動
+        transform.position += move;
+    }
+
+    /// <summary>
+    /// 画面移動オフセット計算処理関数
+    /// </summary>
+    float ApplyDeadZone(float value, float offset)
+    {
+        //符号を外して計算しやすくする
+        float abs = Mathf.Abs(value);
+
+        //オフセット以下なら0
+        if (abs <= offset) {
+            return 0f;
+        }
         
-    }
-
-    void Update()
-    {
-        var Ppos = Player_.transform.position;
-        var vec2 = new Vector2();
-        vec2 += IsVailed(Ppos.x,offsetX_);
-        vec2 += IsVailed(Ppos.y,offsetY_);
-        Cposchenge(vec2);
-    }
-
-    Vector2 IsVailed(float Ppos,float2 offset)
-    {
-        var vec = new Vector2();
-        if (offset.x < Ppos) {
-            vec.x = Ppos - offset.x;
-        }
-        else if (offset.y > Ppos) {
-            vec.y = Ppos - offset.y;
-        }
-        return vec;
-    }
-
-    void Cposchenge(Vector2 pos)
-    {
-        var cpos = MainCamera_.transform.position;
-        cpos.x= pos.x; cpos.y = pos.y;
-        MainCamera_.transform.position = cpos;
+        //オフセット以上なら必要な移動量を返す
+        return (abs - offset) * Mathf.Sign(value);
     }
 }
