@@ -33,7 +33,6 @@ public class CameraManager : MonoBehaviour
     /// </summary>
     float ApplyDeadZone(float value, float offset)
     {
-        //符号を外して計算しやすくする
         float abs = Mathf.Abs(value);
 
         //オフセット以下なら0

@@ -1,9 +1,14 @@
 using System;
 using UnityEngine;
-using UnityEngine.Events;
-using UnityEngine.Rendering;
+using UnityEngine.EventSystems; 
 
-public class Bullet : MonoBehaviour
+
+public interface RecieveInterface : IEventSystemHandler
+{
+    void OnRecieve();
+}
+
+public class Bullet : MonoBehaviour, RecieveInterface
 {
     Rigidbody2D rb;
     float timer = 0;
@@ -20,6 +25,10 @@ public class Bullet : MonoBehaviour
         stop = false;
     }
 
+    public void OnRecieve()
+    {
+        End();
+    }
     void End()
     {
         stop = true;
@@ -39,6 +48,7 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if(stop) { return; }    
         if (collision.gameObject.CompareTag("Player")) {
             End();
         }

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
@@ -51,19 +52,20 @@ public class Player : MonoBehaviour
             else {
                 FlipSprite_ = FlipBool.Left;
             }
-            
+
             if (FlipSprite_ != Flip_cash) {
                 shield_.SetActive(false);
                 animator.SetBool("Guard", false);
+            }
+            
+            if (end_animation)
+            {
+                transform.rotation = Quaternion.Euler(0, 180 * (int)(FlipSprite_), 0);
+                animator.SetBool("Guard", true);
                 Flip_cash = FlipSprite_;
                 end_animation = false;
             }
-            else {
-                animator.SetBool("Guard", true);
-            }
-            if (end_animation) {
-                transform.rotation = Quaternion.Euler(0, 180 * (int)(FlipSprite_), 0);
-            }
+
         }
         else {
             if (Idle_cool > 0) {
@@ -72,6 +74,7 @@ public class Player : MonoBehaviour
             else {
                 shield_.SetActive(false);
                 animator.SetBool("Guard", false);
+                end_animation = true;
             }
         }
 
@@ -87,17 +90,22 @@ public class Player : MonoBehaviour
     {
         if (!shield_.activeSelf) {
             shield_.SetActive(true);
+            ExecuteEvents.Execute<ShiledInterface>(
+                target: shield_,
+                eventData: null,
+                functor: (receiver, eventData) => receiver.OnRecieve(true));
         }
     }
 
     public void GuardEnd()
     {
         end_animation = true;
+        Debug.Log("EndGuard");
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Bullet")
+        if (collision.gameObject.CompareTag("Bullet"))
         {
             Debug.Log("”í’e");
 
